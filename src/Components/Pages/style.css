@@ -1,0 +1,122 @@
+
+#middle-images{
+    display: flex;
+    width: 100%;
+    
+    background-color: black;
+    
+}
+#image_1{
+    background: url("../../Assets/img/new.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    
+    margin-right: 2px;
+    margin-bottom: 3px;
+    
+    background-repeat: no-repeat;
+
+}
+
+#image_2{
+    background: url("../../Assets//img//new1.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    margin-bottom: 3px;
+}
+
+
+
+#image_3{
+    background: url("../../Assets//img//new2.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+}
+
+#image_4{
+    background: url("../../Assets//img//new3.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+}
+
+#image_5{
+    background: url("../../Assets//img//new4.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+
+#image_6{
+    background: url("../../Assets//img//new6.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 3px;
+}
+
+/* media query */
+
+@media screen and (max-width:768px) {
+    #middle-images{
+        display: block;
+        width: 100%;
+        
+    }
+    #image_1{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+
+    #image_2{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+    #image_3{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+
+    #image_4{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+
+    #image_5{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+
+    #image_6{
+        padding-top: 80%;
+        padding-bottom: 80%;
+    }
+}
+
+
